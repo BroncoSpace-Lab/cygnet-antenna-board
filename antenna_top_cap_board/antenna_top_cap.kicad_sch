@@ -7933,6 +7933,10 @@
 		(uuid "37bac648-c6cd-4098-a2c4-0904b6403007")
 	)
 	(no_connect
+		(at 187.96 212.09)
+		(uuid "37c95e24-d97e-4674-9f93-87aae8299eec")
+	)
+	(no_connect
 		(at 359.283 88.265)
 		(uuid "3b2c796a-e8a9-4c54-9b6d-5f7250a57b10")
 	)
@@ -7971,6 +7975,10 @@
 	(no_connect
 		(at 328.803 98.425)
 		(uuid "a07b6bbd-30f9-4faa-9968-fc2dbbd951fb")
+	)
+	(no_connect
+		(at 157.48 210.82)
+		(uuid "c1816a55-90a4-41f4-850c-8aaf3dd61b38")
 	)
 	(no_connect
 		(at 312.166 188.976)
@@ -8048,7 +8056,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.327 212.344) (xy 203.327 209.55)
+			(xy 200.66 212.09) (xy 200.66 209.296)
 		)
 		(stroke
 			(width 0)
@@ -8918,7 +8926,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.327 209.55) (xy 207.391 209.55)
+			(xy 200.66 209.296) (xy 204.724 209.296)
 		)
 		(stroke
 			(width 0)
@@ -9648,7 +9656,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.391 209.55) (xy 207.391 211.709)
+			(xy 204.724 209.296) (xy 204.724 211.455)
 		)
 		(stroke
 			(width 0)
@@ -10587,7 +10595,7 @@
 	)
 	(global_label "SDA1"
 		(shape bidirectional)
-		(at 198.247 212.344 90)
+		(at 195.58 212.09 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10597,7 +10605,7 @@
 		)
 		(uuid "330eebbb-33eb-451a-a045-ede50130f2aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.247 203.5493 90)
+			(at 195.58 203.2953 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,7 +11165,7 @@
 	)
 	(global_label "SCL1"
 		(shape bidirectional)
-		(at 195.707 212.344 90)
+		(at 193.04 212.09 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11167,7 +11175,7 @@
 		)
 		(uuid "cc54e2ec-7fa5-450e-961f-06ff35e0591b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.707 203.6098 90)
+			(at 193.04 203.3558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12441,7 +12449,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 200.787 212.344 0)
+		(at 198.12 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12450,7 +12458,7 @@
 		(fields_autoplaced yes)
 		(uuid "23c36bc4-8a35-4f39-b0cc-98d3d2790ff8")
 		(property "Reference" "#PWR053"
-			(at 200.787 216.154 0)
+			(at 198.12 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,7 +12467,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 200.787 207.264 0)
+			(at 198.12 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12467,7 +12475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.787 212.344 0)
+			(at 198.12 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12476,7 +12484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.787 212.344 0)
+			(at 198.12 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12485,7 +12493,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.787 212.344 0)
+			(at 198.12 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15014,7 +15022,7 @@
 	)
 	(symbol
 		(lib_id "BM04B-SRSS-TB_LF__SN_:BM04B-SRSS-TB(LF)(SN)")
-		(at 195.707 222.504 270)
+		(at 193.04 222.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15023,7 +15031,7 @@
 		(fields_autoplaced yes)
 		(uuid "778d45f0-abee-4d8a-8aa7-568bb0a05ca4")
 		(property "Reference" "J8"
-			(at 207.3402 221.869 90)
+			(at 204.6732 221.615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15032,7 +15040,7 @@
 			)
 		)
 		(property "Value" "BM04B-SRSS-TB(LF)(SN)"
-			(at 207.3402 224.409 90)
+			(at 204.6732 224.155 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +15049,7 @@
 			)
 		)
 		(property "Footprint" "Antenna_board:JST_BM04B-SRSS-TB(LF)(SN)"
-			(at 195.707 222.504 0)
+			(at 193.04 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15051,7 +15059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.707 222.504 0)
+			(at 193.04 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15060,7 +15068,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.707 222.504 0)
+			(at 193.04 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15069,7 +15077,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 195.707 222.504 0)
+			(at 193.04 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15079,7 +15087,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "BM04B-SRSS-TB(LF)(SN)"
-			(at 195.707 222.504 0)
+			(at 193.04 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15089,7 +15097,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 195.707 222.504 0)
+			(at 193.04 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15099,7 +15107,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 195.707 222.504 0)
+			(at 193.04 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15109,7 +15117,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 195.707 222.504 0)
+			(at 193.04 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19100,7 +19108,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.391 211.709 0)
+		(at 204.724 211.455 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19109,7 +19117,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4c532d8-15c4-4b12-8f7f-11d34b061477")
 		(property "Reference" "#PWR054"
-			(at 207.391 218.059 0)
+			(at 204.724 217.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19118,7 +19126,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.391 216.789 0)
+			(at 204.724 216.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19126,7 +19134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.391 211.709 0)
+			(at 204.724 211.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19135,7 +19143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.391 211.709 0)
+			(at 204.724 211.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19144,7 +19152,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.391 211.709 0)
+			(at 204.724 211.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
