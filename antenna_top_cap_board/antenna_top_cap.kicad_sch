@@ -7458,7 +7458,7 @@
 		(uuid "05c44b09-9927-49c6-bece-1f4e79c8a64b")
 	)
 	(junction
-		(at 123.19 97.79)
+		(at 162.56 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1309e8bc-9c9d-478c-9384-605db0b1293b")
@@ -7492,12 +7492,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "350ea5a6-e0d8-4361-967a-79ba729aece2")
-	)
-	(junction
-		(at 63.246 47.498)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38afb9ee-d3a4-4c16-9904-ace474ce70ec")
 	)
 	(junction
 		(at 330.581 35.687)
@@ -7572,7 +7566,7 @@
 		(uuid "6d013c55-e653-4734-a08f-0aff3ecd42d7")
 	)
 	(junction
-		(at 87.63 97.79)
+		(at 127 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72f5aabc-3f17-4f3f-819c-cfa546e9482b")
@@ -7588,12 +7582,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "973037f9-12e7-411e-a4c3-bcc06156636a")
-	)
-	(junction
-		(at 62.103 34.798)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ae10b04-4e02-4324-aff7-86df78a1f6bc")
 	)
 	(junction
 		(at 314.833 75.565)
@@ -7614,7 +7602,7 @@
 		(uuid "a48d4046-87d7-465e-bbbd-4f20d7f1a0d0")
 	)
 	(junction
-		(at 130.81 87.63)
+		(at 170.18 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5e7fb3b-0ba5-4241-b951-ca2b324676c8")
@@ -7624,12 +7612,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6f4287c-d412-405b-8df0-fdef7cb2275f")
-	)
-	(junction
-		(at 56.642 57.531)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab69eb2e-9d31-4109-9493-8f7bdb8cdaf1")
 	)
 	(junction
 		(at 151.765 48.133)
@@ -7644,7 +7626,7 @@
 		(uuid "d38474b6-57ff-48c3-a1d3-7caea83b27c7")
 	)
 	(junction
-		(at 95.25 87.63)
+		(at 134.62 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7501477-62ef-480e-94ce-079bfd690afb")
@@ -7754,7 +7736,7 @@
 		(uuid "e3fec399-e1e3-4e19-874f-eb13afda9bd0")
 	)
 	(no_connect
-		(at 49.149 44.958)
+		(at 50.8 44.45)
 		(uuid "f2375104-2de7-4e01-b49c-91638eebf71c")
 	)
 	(no_connect
@@ -7781,13 +7763,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 74.93) (xy 130.81 72.39)
+			(xy 170.18 76.2) (xy 170.18 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "02f808f0-6892-4327-8f8d-886f074c9aef")
+	)
+	(wire
+		(pts
+			(xy 41.91 59.69) (xy 41.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "054dbc64-c98c-4dcc-b438-cf2e5b9452be")
 	)
 	(wire
 		(pts
@@ -7801,7 +7793,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 74.93) (xy 95.25 72.39)
+			(xy 134.62 76.2) (xy 134.62 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7831,7 +7823,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 97.79) (xy 123.19 97.79)
+			(xy 147.32 99.06) (xy 162.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7861,7 +7853,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 69.85 97.79)
+			(xy 127 99.06) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7898,16 +7890,6 @@
 			(type default)
 		)
 		(uuid "19f1ddc3-0794-41b3-af9f-8a80c22619e1")
-	)
-	(wire
-		(pts
-			(xy 41.529 57.531) (xy 56.642 57.531)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8696d5-5625-4580-99bf-284662a225cd")
 	)
 	(wire
 		(pts
@@ -7971,7 +7953,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 123.19 97.79)
+			(xy 162.56 86.36) (xy 162.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8021,7 +8003,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 74.93) (xy 123.19 72.39)
+			(xy 162.56 76.2) (xy 162.56 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8038,16 +8020,6 @@
 			(type default)
 		)
 		(uuid "2f7dba7a-3404-469f-a160-869faec7ce32")
-	)
-	(wire
-		(pts
-			(xy 59.69 37.338) (xy 64.135 37.338)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32bdc356-0b0c-4cd7-97f4-6fd0366527d3")
 	)
 	(wire
 		(pts
@@ -8091,13 +8063,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 69.85 87.63)
+			(xy 134.62 88.9) (xy 109.22 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "367ea7f7-4421-4038-a123-844c55bb2ba2")
+	)
+	(wire
+		(pts
+			(xy 43.18 53.848) (xy 41.529 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a20c65-32d3-465a-acb4-f8afbe54f3df")
 	)
 	(wire
 		(pts
@@ -8111,7 +8093,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 87.63) (xy 95.25 87.63)
+			(xy 147.32 88.9) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8168,16 +8150,6 @@
 			(type default)
 		)
 		(uuid "43411341-84c3-4a5e-b5c4-fe79b7acbfd4")
-	)
-	(wire
-		(pts
-			(xy 49.149 39.878) (xy 64.135 39.878)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4445a147-7061-4824-95fd-12d9824a7c62")
 	)
 	(wire
 		(pts
@@ -8331,13 +8303,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 97.79) (xy 87.63 97.79)
+			(xy 137.16 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "543c21e3-4d27-4ff2-b2f0-108545510240")
+	)
+	(wire
+		(pts
+			(xy 41.529 58.42) (xy 41.529 57.531)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fa2d66-468f-46e7-b58a-406cf97cafed")
 	)
 	(wire
 		(pts
@@ -8351,17 +8333,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.246 47.498) (xy 64.135 47.498)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "564ed311-856b-458d-9344-bf9edf32137f")
-	)
-	(wire
-		(pts
-			(xy 38.989 53.848) (xy 41.529 53.848)
+			(xy 40.64 53.848) (xy 41.529 53.848)
 		)
 		(stroke
 			(width 0)
@@ -8411,7 +8383,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 85.09) (xy 130.81 87.63)
+			(xy 170.18 86.36) (xy 170.18 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8551,6 +8523,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 41.91) (xy 63.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68011725-ac6b-4f6f-b0a8-30ce56a1a3ca")
+	)
+	(wire
+		(pts
 			(xy 346.202 178.054) (xy 346.202 183.896)
 		)
 		(stroke
@@ -8581,7 +8563,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.103 25.527) (xy 62.103 34.798)
+			(xy 62.103 25.527) (xy 62.103 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8651,7 +8633,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 92.71) (xy 105.41 72.39)
+			(xy 144.78 93.98) (xy 144.78 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8801,7 +8783,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 72.39) (xy 87.63 74.93)
+			(xy 127 73.66) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8811,7 +8793,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 130.81 87.63)
+			(xy 157.48 88.9) (xy 170.18 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8828,6 +8810,16 @@
 			(type default)
 		)
 		(uuid "8117b3b1-f587-44f3-9e1d-d454a8891a38")
+	)
+	(wire
+		(pts
+			(xy 41.91 58.42) (xy 41.529 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81af5520-708b-423b-985f-ff10a2fbe6d6")
 	)
 	(wire
 		(pts
@@ -8918,16 +8910,6 @@
 			(type default)
 		)
 		(uuid "897bfc94-5a6b-4255-831e-f5651b1a985c")
-	)
-	(wire
-		(pts
-			(xy 63.246 57.531) (xy 63.246 47.498)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898ea83f-db1e-4532-8578-c3d745112f34")
 	)
 	(wire
 		(pts
@@ -9081,7 +9063,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 97.79) (xy 146.05 97.79)
+			(xy 162.56 99.06) (xy 185.42 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9101,7 +9083,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.529 50.038) (xy 41.529 53.848)
+			(xy 43.18 49.53) (xy 43.18 53.848)
 		)
 		(stroke
 			(width 0)
@@ -9241,7 +9223,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 87.63) (xy 146.05 87.63)
+			(xy 170.18 88.9) (xy 185.42 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9371,7 +9353,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 95.25 87.63)
+			(xy 134.62 86.36) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9408,16 +9390,6 @@
 			(type default)
 		)
 		(uuid "c80030a5-4bb3-475c-9ef4-9f68dfa90987")
-	)
-	(wire
-		(pts
-			(xy 56.642 57.531) (xy 63.246 57.531)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95cd653-4e30-4d28-9a7a-21c663d5f149")
 	)
 	(wire
 		(pts
@@ -9471,17 +9443,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 42.418) (xy 59.69 37.338)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccba9884-8eb0-44dd-9eba-5a29401507ac")
-	)
-	(wire
-		(pts
-			(xy 49.149 34.798) (xy 62.103 34.798)
+			(xy 50.8 34.29) (xy 62.103 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9528,16 +9490,6 @@
 			(type default)
 		)
 		(uuid "d61b7975-2323-4297-80d0-a4ef69b0578a")
-	)
-	(wire
-		(pts
-			(xy 49.149 42.418) (xy 59.69 42.418)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78c6960-d27d-4db3-8b7b-e3ac0f10ad99")
 	)
 	(wire
 		(pts
@@ -9631,16 +9583,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 42.418) (xy 63.246 42.418)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dff38ff5-19fb-485e-8f5e-0905c93b193e")
-	)
-	(wire
-		(pts
 			(xy 264.16 113.03) (xy 264.1854 113.03)
 		)
 		(stroke
@@ -9651,16 +9593,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.103 34.798) (xy 64.135 34.798)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e35ee742-3aa3-47a4-bb2f-75f5e92c9533")
-	)
-	(wire
-		(pts
 			(xy 344.043 70.485) (xy 340.233 70.485)
 		)
 		(stroke
@@ -9668,6 +9600,16 @@
 			(type default)
 		)
 		(uuid "e369c640-49f1-4934-8953-5e2ae2951b57")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 63.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4212504-3bfe-41c2-bb19-d4f56059d9d2")
 	)
 	(wire
 		(pts
@@ -9751,17 +9693,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.246 42.418) (xy 63.246 47.498)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb69fd65-1f97-4612-9736-5ab5d89862ea")
-	)
-	(wire
-		(pts
-			(xy 38.989 50.038) (xy 38.989 53.848)
+			(xy 40.64 49.53) (xy 40.64 53.848)
 		)
 		(stroke
 			(width 0)
@@ -9881,7 +9813,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 115.57 72.39)
+			(xy 154.94 83.82) (xy 154.94 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9891,7 +9823,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 85.09) (xy 87.63 97.79)
+			(xy 127 86.36) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9931,7 +9863,7 @@
 	)
 	(text "S"
 		(exclude_from_sim no)
-		(at 107.95 100.33 0)
+		(at 147.32 101.6 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -9963,7 +9895,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 102.87 92.71 0)
+		(at 142.24 93.98 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -9974,7 +9906,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 97.79 100.33 0)
+		(at 137.16 101.6 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -10006,7 +9938,7 @@
 		(uuid "13e41a5e-c798-49e1-9e72-7c0b2b6fdf57")
 	)
 	(label "0d-"
-		(at 51.181 42.418 0)
+		(at 51.181 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10050,7 +9982,7 @@
 		(uuid "58468094-625b-438a-b3df-60e18db0f994")
 	)
 	(label "SDA1"
-		(at 80.01 87.63 0)
+		(at 119.38 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10116,7 +10048,7 @@
 		(uuid "9ffedc78-9393-4717-bafa-8c15e7b850c7")
 	)
 	(label "SCL1"
-		(at 80.01 97.79 0)
+		(at 119.38 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10127,7 +10059,7 @@
 		(uuid "a5fda097-954a-4811-85d5-535c80b31cc7")
 	)
 	(label "0d+"
-		(at 51.054 39.878 0)
+		(at 51.054 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10138,7 +10070,7 @@
 		(uuid "bb32f701-9711-42a6-98a4-17d7e6aa4247")
 	)
 	(label "SCL_3V"
-		(at 146.05 97.79 0)
+		(at 185.42 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10149,7 +10081,7 @@
 		(uuid "c198ab10-d505-4298-bef2-47b2f5bd4218")
 	)
 	(label "SDA_3V"
-		(at 146.05 87.63 0)
+		(at 185.42 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10183,6 +10115,28 @@
 		(uuid "005139c1-8f11-44d2-8326-4666ae4db4f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 355.0149 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape input)
+		(at 63.5 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03a0bd5f-ef83-4e86-b470-432fce2f5252")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.1052 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,7 +10455,7 @@
 	)
 	(global_label "SDA1"
 		(shape bidirectional)
-		(at 69.85 87.63 180)
+		(at 109.22 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10511,7 +10465,7 @@
 		)
 		(uuid "419306d0-67b6-4d8b-9a13-c0587bc8cddf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.9759 87.63 0)
+			(at 100.3459 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,7 +10718,7 @@
 	)
 	(global_label "SCL1"
 		(shape bidirectional)
-		(at 69.85 97.79 180)
+		(at 109.22 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10774,7 +10728,7 @@
 		)
 		(uuid "9952ec4a-04dd-4592-ab9a-1167a7e4c54e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.0364 97.79 0)
+			(at 100.4064 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,6 +10795,28 @@
 		(uuid "a5774a50-8513-4f3e-915f-793ee1990e42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 382.0129 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 63.5 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c19c0e84-9d77-432c-a3b3-e3e10bf24b8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.1052 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11152,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
-		(at 41.529 39.878 0)
+		(at 43.18 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11185,7 +11161,7 @@
 		(fields_autoplaced yes)
 		(uuid "014ccc42-97ec-4fec-9afd-05d5cbf39542")
 		(property "Reference" "J8"
-			(at 41.529 27.94 0)
+			(at 43.18 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,7 +11169,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 41.529 30.48 0)
+			(at 43.18 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11177,7 @@
 			)
 		)
 		(property "Footprint" "Antenna_board:MOLEX_105164-0001(round)"
-			(at 45.339 41.148 0)
+			(at 46.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +11186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.339 41.148 0)
+			(at 46.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +11195,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.529 39.878 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,7 +11445,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:MOSFET-N_DUAL")
-		(at 102.87 95.25 90)
+		(at 142.24 96.52 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11478,7 +11454,7 @@
 		(dnp no)
 		(uuid "076c2e81-40d1-48f2-af36-d8b8f43d02ff")
 		(property "Reference" "Q1"
-			(at 102.235 100.33 0)
+			(at 141.605 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11487,7 +11463,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 104.14 100.33 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11496,7 +11472,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 102.87 95.25 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,7 +11481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 95.25 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +11490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 95.25 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,7 +11865,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:GND")
-		(at 56.642 60.071 0)
+		(at 41.91 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11898,7 +11874,7 @@
 		(dnp no)
 		(uuid "231b34c5-f30a-41d0-9eaa-522fc288dfcb")
 		(property "Reference" "#GND03"
-			(at 56.642 60.071 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11907,7 +11883,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.182 62.611 0)
+			(at 44.45 64.77 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11916,7 +11892,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit ItsyBitsy RP2040:"
-			(at 56.642 60.071 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11925,7 +11901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.642 60.071 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,7 +11910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 56.642 60.071 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,7 +12311,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:+3V3")
-		(at 95.25 69.85 0)
+		(at 134.62 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12344,7 +12320,7 @@
 		(fields_autoplaced yes)
 		(uuid "389d06ff-b58f-4bed-a6d0-f8678d092c88")
 		(property "Reference" "#+3V03"
-			(at 95.25 69.85 0)
+			(at 134.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12329,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 95.25 67.31 0)
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12361,7 +12337,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit ItsyBitsy RP2040:"
-			(at 95.25 69.85 0)
+			(at 134.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +12346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 69.85 0)
+			(at 134.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 69.85 0)
+			(at 134.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12533,7 +12509,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:RESISTOR_4PACK")
-		(at 123.19 80.01 90)
+		(at 162.56 81.28 90)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -12542,7 +12518,7 @@
 		(dnp no)
 		(uuid "3a3d8bc1-4b9c-4a97-8a69-1c229b214896")
 		(property "Reference" "R3"
-			(at 120.65 80.01 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12550,7 +12526,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 123.19 80.01 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12559,7 +12535,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 123.19 80.01 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12568,7 +12544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 80.01 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12577,7 +12553,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 80.01 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12957,7 +12933,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:2.8V")
-		(at 130.81 69.85 0)
+		(at 170.18 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12965,7 +12941,7 @@
 		(dnp no)
 		(uuid "44d8eacb-ed2f-4584-bc34-cefc2850165c")
 		(property "Reference" "#U$07"
-			(at 130.81 69.85 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12974,7 +12950,7 @@
 			)
 		)
 		(property "Value" "2.8V"
-			(at 129.286 68.834 0)
+			(at 168.656 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12983,7 +12959,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit VL6180 Time of Flight Sensor:"
-			(at 130.81 69.85 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12992,7 +12968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 69.85 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13001,7 +12977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 69.85 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13712,7 +13688,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:RESISTOR_4PACK")
-		(at 87.63 80.01 270)
+		(at 127 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13720,7 +13696,7 @@
 		(dnp no)
 		(uuid "60b95f85-d850-4518-8571-4995f21dbfac")
 		(property "Reference" "R3"
-			(at 90.17 80.01 0)
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13728,7 +13704,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 87.63 80.01 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13737,7 +13713,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 87.63 80.01 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13746,7 +13722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 80.01 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13755,7 +13731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 80.01 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13798,7 +13774,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:MOSFET-N_DUAL")
-		(at 113.03 85.09 90)
+		(at 152.4 86.36 90)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -13807,7 +13783,7 @@
 		(dnp no)
 		(uuid "6239f79b-e684-4eae-b5ee-c2e28d978822")
 		(property "Reference" "Q1"
-			(at 112.395 90.17 0)
+			(at 151.765 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13816,7 +13792,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 114.3 90.17 0)
+			(at 153.67 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13825,7 +13801,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 113.03 85.09 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13834,7 +13810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 85.09 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13843,7 +13819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 85.09 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14224,7 +14200,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:RESISTOR_4PACK")
-		(at 130.81 80.01 90)
+		(at 170.18 81.28 90)
 		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
@@ -14233,7 +14209,7 @@
 		(dnp no)
 		(uuid "70da13a6-ddc9-4f8f-b623-7b34aa96157a")
 		(property "Reference" "R3"
-			(at 128.27 80.01 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14241,7 +14217,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 130.81 80.01 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14250,7 +14226,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 130.81 80.01 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14259,7 +14235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 80.01 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14268,7 +14244,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 80.01 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14952,7 +14928,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:2.8V")
-		(at 123.19 69.85 0)
+		(at 162.56 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14960,7 +14936,7 @@
 		(dnp no)
 		(uuid "8ba373c5-3d1c-4932-9b64-417f0c2b9f60")
 		(property "Reference" "#U$06"
-			(at 123.19 69.85 0)
+			(at 162.56 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14969,7 +14945,7 @@
 			)
 		)
 		(property "Value" "2.8V"
-			(at 121.666 68.834 0)
+			(at 161.036 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14978,7 +14954,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit VL6180 Time of Flight Sensor:"
-			(at 123.19 69.85 0)
+			(at 162.56 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14987,7 +14963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 69.85 0)
+			(at 162.56 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14996,7 +14972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 69.85 0)
+			(at 162.56 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15938,7 +15914,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:2.8V")
-		(at 105.41 69.85 0)
+		(at 144.78 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15946,7 +15922,7 @@
 		(dnp no)
 		(uuid "afd99e33-bc69-4ff9-8252-ebe5bd9e0357")
 		(property "Reference" "#U$03"
-			(at 105.41 69.85 0)
+			(at 144.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15955,7 +15931,7 @@
 			)
 		)
 		(property "Value" "2.8V"
-			(at 103.886 68.834 0)
+			(at 143.256 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -15964,7 +15940,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit VL6180 Time of Flight Sensor:"
-			(at 105.41 69.85 0)
+			(at 144.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15973,7 +15949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 69.85 0)
+			(at 144.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15982,7 +15958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 69.85 0)
+			(at 144.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16004,7 +15980,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:2.8V")
-		(at 115.57 69.85 0)
+		(at 154.94 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16012,7 +15988,7 @@
 		(dnp no)
 		(uuid "b2fff561-54ff-4ae0-8db3-0643262e008d")
 		(property "Reference" "#U$04"
-			(at 115.57 69.85 0)
+			(at 154.94 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16021,7 +15997,7 @@
 			)
 		)
 		(property "Value" "2.8V"
-			(at 114.046 68.834 0)
+			(at 153.416 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -16030,7 +16006,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit VL6180 Time of Flight Sensor:"
-			(at 115.57 69.85 0)
+			(at 154.94 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16039,7 +16015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 69.85 0)
+			(at 154.94 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16048,7 +16024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 69.85 0)
+			(at 154.94 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16826,139 +16802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BM04B-SRSS-TB_LF__SN_:BM04B-SRSS-TB(LF)(SN)")
-		(at 74.295 42.418 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d092d238-cde7-4a9b-a01d-fe11772cf0aa")
-		(property "Reference" "J12"
-			(at 80.899 39.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BM04B-SRSS-TB(LF)(SN)"
-			(at 80.899 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Antenna_board:JST_BM04B-SRSS-TB(LF)(SN)"
-			(at 74.295 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.295 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.295 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 74.295 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "BM04B-SRSS-TB(LF)(SN)"
-			(at 74.295 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 74.295 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 74.295 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 74.295 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fb59526-39ef-440f-ada5-3def4093086c")
-		)
-		(pin "2"
-			(uuid "ad50c6a5-0941-4e74-b15d-840d62f98b95")
-		)
-		(pin "3"
-			(uuid "2b5c81c1-f0ab-4126-a796-803faece0781")
-		)
-		(pin "4"
-			(uuid "e7a66692-7ddf-40b5-91b3-d016853f7af1")
-		)
-		(pin "S1"
-			(uuid "79e111ef-da59-4fa1-84cc-ce2da677cb31")
-		)
-		(pin "S2"
-			(uuid "4a80fa31-0206-4dce-ad7d-dacf288b6a2d")
-		)
-		(instances
-			(project "antenna_top_cap"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_B_Micro")
 		(at 310.007 40.767 0)
 		(unit 1)
@@ -17497,7 +17340,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:+3V3")
-		(at 87.63 69.85 0)
+		(at 127 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17506,7 +17349,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc57e275-5884-4419-9bc3-0f89d310f1ec")
 		(property "Reference" "#+3V02"
-			(at 87.63 69.85 0)
+			(at 127 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17515,7 +17358,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 87.63 67.31 0)
+			(at 127 68.58 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17523,7 +17366,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit ItsyBitsy RP2040:"
-			(at 87.63 69.85 0)
+			(at 127 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17532,7 +17375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 69.85 0)
+			(at 127 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17541,7 +17384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 69.85 0)
+			(at 127 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19167,7 +19010,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:RESISTOR_4PACK")
-		(at 95.25 80.01 270)
+		(at 134.62 81.28 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19175,7 +19018,7 @@
 		(dnp no)
 		(uuid "fabea6b8-2cdb-49f6-b674-65bd0f905f80")
 		(property "Reference" "R3"
-			(at 97.79 80.01 0)
+			(at 137.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19183,7 +19026,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 95.25 80.01 0)
+			(at 134.62 81.28 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -19192,7 +19035,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 95.25 80.01 0)
+			(at 134.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19201,7 +19044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 80.01 0)
+			(at 134.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19210,7 +19053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 80.01 0)
+			(at 134.62 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
