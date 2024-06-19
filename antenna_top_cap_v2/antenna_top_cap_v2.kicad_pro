@@ -59,15 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|161100800|135959200|02f19c69-d28e-480c-913c-0d9b6ef31081|281a96c8-432d-4380-8002-a929cef29410",
-        "copper_edge_clearance|173200800|135959201|e29b1eda-9a86-47ca-8586-e7f7983dc1ed|f6148331-62a5-40fe-9865-018e1ea5e99e",
-        "shorting_items|177845800|119534401|96f55315-d05d-423b-b84b-403b0e10c6cd|d232dbbb-e6a0-4cde-a7de-7562ae928615",
-        "shorting_items|179845800|119534401|df4c834b-c8df-4a47-99fb-80c937003659|0559116c-d7e8-4863-8e84-14131b63a220",
-        "shorting_items|183845800|119534401|63fdbb19-38d0-411b-a209-14b818a920bc|2d628009-b022-46e0-bb0c-b8ed70a6f753",
-        "shorting_items|185845800|119534401|b6d91136-ff50-4918-acb4-b840ce02cbbe|d2c3dc2a-41fd-4f18-a763-dd264157280d",
-        "shorting_items|187845800|119534401|80cb4212-ab90-45fc-bdcb-4b3c5d9cb101|f56d863f-a3a7-4801-9e86-81dfa27ff19d"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

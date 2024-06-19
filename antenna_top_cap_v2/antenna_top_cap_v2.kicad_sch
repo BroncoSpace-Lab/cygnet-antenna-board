@@ -5930,8 +5930,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 6.35 0)
+			(property "Reference" "U3"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5939,7 +5939,7 @@
 				)
 			)
 			(property "Value" "0433BM15A0001"
-				(at 0 -7.62 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5947,7 +5947,7 @@
 				)
 			)
 			(property "Footprint" "RF_Converter:Balun_Johanson_0896BM15A0001"
-				(at 0 -7.62 0)
+				(at 0 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5964,7 +5964,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "430-435MHz 1:1 RF Transformer, Unbalanced to Balanced, with integrated DC blocking capacitor"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -6137,6 +6137,24 @@
 					)
 				)
 				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 5.08 0)
 					(length 2.54)
 					(name "~"
@@ -6146,7 +6164,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6164,7 +6182,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6182,24 +6200,6 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "4"
 						(effects
 							(font
@@ -6209,9 +6209,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -7.62 90)
+					(at 0 -7.62 90)
 					(length 2.54) hide
-					(name "GND"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6227,9 +6227,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -7.62 90)
-					(length 2.54) hide
-					(name "GND"
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11849,7 +11849,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U6")
 					(unit 1)
@@ -11935,7 +11935,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J11")
 					(unit 1)
@@ -12010,7 +12010,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R9")
 					(unit 1)
@@ -12142,7 +12142,7 @@
 			(uuid "93c932a9-d921-4192-9fbc-f2806f7bd1cf")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J4")
 					(unit 1)
@@ -12211,7 +12211,7 @@
 			(uuid "5c54705c-915d-47a8-9efa-93d6907c3887")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
 					(unit 1)
@@ -12293,7 +12293,7 @@
 			(uuid "8892b75d-3a5c-4108-97e9-b5100c32da3d")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Q1")
 					(unit 1)
@@ -12362,7 +12362,7 @@
 			(uuid "e1d17bff-430e-474e-a3b4-f036db2a8f14")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R8")
 					(unit 1)
@@ -12431,7 +12431,7 @@
 			(uuid "f77fcd68-25ef-404d-a683-de424cd832c5")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R6")
 					(unit 1)
@@ -12497,7 +12497,7 @@
 			(uuid "0d3c4a6c-e574-49ca-a0d7-3db86a31743f")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR019")
 					(unit 1)
@@ -12563,7 +12563,7 @@
 			(uuid "3ae02440-a0b1-4d75-9079-ee9f5d1c43fa")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$09")
 					(unit 1)
@@ -12629,7 +12629,7 @@
 			(uuid "04c1611d-74ff-4976-ae66-8216b05a970f")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR024")
 					(unit 1)
@@ -12697,7 +12697,7 @@
 			(uuid "5660402b-565a-44e3-baa2-6eaa2d891612")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J6")
 					(unit 1)
@@ -12764,7 +12764,7 @@
 			(uuid "0c23a6fc-5046-4396-86e4-c6c3a2db7b83")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#GND03")
 					(unit 1)
@@ -12836,7 +12836,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR011")
 					(unit 1)
@@ -12902,7 +12902,7 @@
 			(uuid "e10ffc9c-e54a-42ef-96e9-334f358dfb21")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$012")
 					(unit 1)
@@ -12974,7 +12974,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR017")
 					(unit 1)
@@ -13071,7 +13071,7 @@
 			(uuid "4dd2b022-1c52-4d0d-8f94-db42dcfb2498")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1")
 					(unit 1)
@@ -13143,7 +13143,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR04")
 					(unit 1)
@@ -13209,7 +13209,7 @@
 			(uuid "9436c1db-d44d-4068-abf1-90f36b63bee2")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V03")
 					(unit 1)
@@ -13275,7 +13275,7 @@
 			(uuid "75069df0-d4ae-49e3-85a2-fa7923c5897c")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$013")
 					(unit 1)
@@ -13341,7 +13341,7 @@
 			(uuid "4251e3e6-a801-4220-8b75-027b66689b1c")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V08")
 					(unit 1)
@@ -13428,7 +13428,7 @@
 			(uuid "cde1e1f5-0f8d-43c0-a08a-d7e855f4c1ed")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
 					(unit 2)
@@ -13566,7 +13566,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J17")
 					(unit 1)
@@ -13698,7 +13698,7 @@
 			(uuid "182e4df5-26af-4d20-8a04-983776607227")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J14")
 					(unit 1)
@@ -13764,7 +13764,7 @@
 			(uuid "86f4d128-60ac-46ec-bb3d-57f8d81ff699")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V01")
 					(unit 1)
@@ -13830,7 +13830,7 @@
 			(uuid "224ff504-30f7-415e-b059-4600581dcb1e")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$07")
 					(unit 1)
@@ -13896,7 +13896,7 @@
 			(uuid "b6d05e22-684e-4ec7-bb6e-28837e30fc5b")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$08")
 					(unit 1)
@@ -13974,7 +13974,7 @@
 			(uuid "c0775b92-e32a-4b3a-be91-bc4647f4edd7")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 1)
@@ -14041,7 +14041,7 @@
 			(uuid "3d257f46-cea8-4b46-b8c9-59708f18ae13")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP4")
 					(unit 1)
@@ -14107,7 +14107,7 @@
 			(uuid "06a43430-cbe8-45db-8056-7cdcec5da15d")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR014")
 					(unit 1)
@@ -14174,7 +14174,7 @@
 			(uuid "0053c377-ca71-4642-9fdf-c176f3f5b1b0")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C3")
 					(unit 1)
@@ -14306,7 +14306,7 @@
 			(uuid "9c4bb94a-b1b7-4158-a379-cfe4de45351b")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J16")
 					(unit 1)
@@ -14372,7 +14372,7 @@
 			(uuid "78ee9f86-f708-47a5-a3b0-78280ad9b436")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR022")
 					(unit 1)
@@ -14445,7 +14445,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U01")
 					(unit 1)
@@ -14517,7 +14517,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
 					(unit 1)
@@ -14583,7 +14583,7 @@
 			(uuid "932431bb-3adb-42f6-8213-2f91d52a3bcc")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR025")
 					(unit 1)
@@ -14669,7 +14669,7 @@
 			(uuid "d066eb94-7f64-41da-b838-6a6a5ce46a58")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
 					(unit 1)
@@ -14751,7 +14751,7 @@
 			(uuid "3e75adcd-9bde-41c3-9b85-e27aabf02808")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Q1")
 					(unit 2)
@@ -14818,7 +14818,7 @@
 			(uuid "21cfe36f-f9d3-4087-b66a-7d799c32558d")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
 					(unit 1)
@@ -14888,7 +14888,7 @@
 			(uuid "8068c031-b463-4bc9-8fe9-60fa8922b3fb")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R10")
 					(unit 1)
@@ -14960,7 +14960,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
 					(unit 1)
@@ -15026,7 +15026,7 @@
 			(uuid "eba4181d-3d9d-4588-8445-11b272dd6ac5")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V04")
 					(unit 1)
@@ -15095,7 +15095,7 @@
 			(uuid "9eb00ed9-daed-4123-954b-03bcffd44e22")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
 					(unit 1)
@@ -15164,7 +15164,7 @@
 			(uuid "405c91fb-f2a8-4cda-9943-147a6bf24bfe")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C6")
 					(unit 1)
@@ -15251,7 +15251,7 @@
 			(uuid "eff36fa4-5259-48d8-8b09-3051b418d386")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
 					(unit 4)
@@ -15317,7 +15317,7 @@
 			(uuid "b3f4bd32-1d99-46c8-b3a1-a4e511ef95a1")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$05")
 					(unit 1)
@@ -15403,7 +15403,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J13")
 					(unit 1)
@@ -15535,7 +15535,7 @@
 			(uuid "2d9b760d-4b7e-4af6-84a0-d67d4e569d81")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J8")
 					(unit 1)
@@ -15551,18 +15551,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "79aba836-30e9-4c68-ba88-7f80fc3fa676")
 		(property "Reference" "U3"
-			(at 261.874 142.24 0)
+			(at 262.128 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0433BM15A0001"
-			(at 261.874 144.78 0)
+		(property "Value" "NCS1.5-232+"
+			(at 262.636 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15570,7 +15569,7 @@
 			)
 		)
 		(property "Footprint" "RF_Converter:Balun_Johanson_0896BM15A0001"
-			(at 261.874 160.02 0)
+			(at 261.874 165.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15578,7 +15577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.johansontechnology.com/datasheets/0433BM15A0001/0433BM15A0001.pdf"
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/NCS1.5-232+.pdf"
 			(at 261.874 144.78 0)
 			(effects
 				(font
@@ -15615,7 +15614,7 @@
 			(uuid "b8947222-2e52-429f-9c81-df8bb7f9febc")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
 					(unit 1)
@@ -15681,7 +15680,7 @@
 			(uuid "63c28b61-7b95-4ce7-b405-2fb65ee02109")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V010")
 					(unit 1)
@@ -15748,7 +15747,7 @@
 			(uuid "36d94179-16f8-41d0-b920-d8321ed43d5f")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP5")
 					(unit 1)
@@ -15822,7 +15821,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C8")
 					(unit 1)
@@ -15889,7 +15888,7 @@
 			(uuid "5f487213-4263-46c6-88ae-190793883081")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D5")
 					(unit 1)
@@ -15957,7 +15956,7 @@
 			(uuid "9484e5bc-98a6-4bd4-9764-5ab6d4301032")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R4")
 					(unit 1)
@@ -16023,7 +16022,7 @@
 			(uuid "fd738571-e1ba-4dfd-a3f4-f15a7634a2ae")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$06")
 					(unit 1)
@@ -16095,7 +16094,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR010")
 					(unit 1)
@@ -16233,7 +16232,7 @@
 			(uuid "a26a1476-07de-485e-b35f-6e7c63af98b6")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "IC1")
 					(unit 1)
@@ -16305,7 +16304,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR020")
 					(unit 1)
@@ -16376,7 +16375,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR01")
 					(unit 1)
@@ -16442,7 +16441,7 @@
 			(uuid "3d5e0b19-f647-45cb-90c4-02dcfce2961d")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$01")
 					(unit 1)
@@ -16508,7 +16507,7 @@
 			(uuid "c9b07032-0cf0-4c27-b267-00fc07ac793b")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$02")
 					(unit 1)
@@ -16585,7 +16584,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J5")
 					(unit 1)
@@ -16652,7 +16651,7 @@
 			(uuid "9f89e475-b8ce-4748-963d-b7a91640c9d6")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#GND05")
 					(unit 1)
@@ -16738,7 +16737,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J10")
 					(unit 1)
@@ -16804,7 +16803,7 @@
 			(uuid "d5c1b259-6ea9-4e4e-9763-df8c9c60f71a")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$011")
 					(unit 1)
@@ -16871,7 +16870,7 @@
 			(uuid "61a5a4f5-f612-4b68-8b9a-acda4e9acd77")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP1")
 					(unit 1)
@@ -16943,7 +16942,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
 					(unit 1)
@@ -17009,7 +17008,7 @@
 			(uuid "b58a9252-44b9-421d-b765-851a1bf4bd9a")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$03")
 					(unit 1)
@@ -17075,7 +17074,7 @@
 			(uuid "91191dbd-06da-4879-93ad-b7c78e1e4442")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$04")
 					(unit 1)
@@ -17147,7 +17146,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR02")
 					(unit 1)
@@ -17214,7 +17213,7 @@
 			(uuid "08489161-8245-4ff3-ad76-55c8c3524c6f")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR023")
 					(unit 1)
@@ -17281,7 +17280,7 @@
 			(uuid "2aef2ed0-437b-482a-836d-d489cfde3faa")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
 					(unit 1)
@@ -17349,7 +17348,7 @@
 			(uuid "129f36e2-c75b-4b00-b660-ba1ff1848dcd")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
 					(unit 1)
@@ -17421,7 +17420,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V06")
 					(unit 1)
@@ -17493,7 +17492,7 @@
 			(uuid "67e2fc7d-0c06-4728-af51-ae4f682cc0ad")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "JP1")
 					(unit 1)
@@ -17560,7 +17559,7 @@
 			(uuid "e87d6025-ce77-48fb-bc0e-348947cd278c")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP2")
 					(unit 1)
@@ -17627,7 +17626,7 @@
 			(uuid "681787ab-f1e6-4cae-bf85-1e24a30f02cd")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#GND06")
 					(unit 1)
@@ -17765,7 +17764,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J18")
 					(unit 1)
@@ -17831,7 +17830,7 @@
 			(uuid "d7a6d2e9-cd56-4a2c-ae96-88c93a41404d")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$010")
 					(unit 1)
@@ -17903,7 +17902,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V07")
 					(unit 1)
@@ -17989,7 +17988,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J15")
 					(unit 1)
@@ -18055,7 +18054,7 @@
 			(uuid "d4ed32ff-b618-483a-b89a-cdaf5be7898a")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR021")
 					(unit 1)
@@ -18124,7 +18123,7 @@
 			(uuid "81f5d2e3-855f-478e-bf5c-6702824a5c32")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R5")
 					(unit 1)
@@ -18222,7 +18221,7 @@
 			(uuid "bde95f27-bdcc-43cc-9fa1-77db25f66e99")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J19")
 					(unit 1)
@@ -18289,7 +18288,7 @@
 			(uuid "9e7e7b72-8aa0-444b-b588-67269dbb2959")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D2")
 					(unit 1)
@@ -18361,7 +18360,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
 					(unit 1)
@@ -18440,7 +18439,7 @@
 			(uuid "29c2910b-a1d5-481a-a1b3-4c3e6e30e504")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U4")
 					(unit 1)
@@ -18506,7 +18505,7 @@
 			(uuid "635ddf3e-0384-4ac0-825b-118768ac1a35")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V02")
 					(unit 1)
@@ -18661,7 +18660,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U5")
 					(unit 1)
@@ -18728,7 +18727,7 @@
 			(uuid "85eddbdc-7dc5-49d3-ae63-d381855f99b5")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D1")
 					(unit 1)
@@ -18800,7 +18799,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR018")
 					(unit 1)
@@ -18873,7 +18872,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C4")
 					(unit 1)
@@ -18940,7 +18939,7 @@
 			(uuid "08b7f100-d777-44b8-9be4-433f9787d3b9")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP7")
 					(unit 1)
@@ -19007,7 +19006,7 @@
 			(uuid "cf02fb01-d2d1-49af-a2c6-74e6f2ef82c0")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D4")
 					(unit 1)
@@ -19079,7 +19078,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR07")
 					(unit 1)
@@ -19146,7 +19145,7 @@
 			(uuid "974cd8bf-d3f3-4fe2-a0df-d53b045f93fa")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#GND02")
 					(unit 1)
@@ -19215,7 +19214,7 @@
 			(uuid "2ffefbfb-6dcf-48ac-940b-62732a06457e")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R7")
 					(unit 1)
@@ -19281,7 +19280,7 @@
 			(uuid "e9f562a8-27a9-4276-9270-1b84e797b355")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V05")
 					(unit 1)
@@ -19346,7 +19345,7 @@
 			(uuid "c59a90bb-5a3b-4636-93c5-a5d6ef55c727")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#GND04")
 					(unit 1)
@@ -19418,7 +19417,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR016")
 					(unit 1)
@@ -19486,7 +19485,7 @@
 			(uuid "3143b930-60e0-40db-bb58-e46165126e10")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
 					(unit 1)
@@ -19558,7 +19557,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR012")
 					(unit 1)
@@ -19624,7 +19623,7 @@
 			(uuid "d659e1fe-be7d-44d4-a9db-f2325391b7ae")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#U$014")
 					(unit 1)
@@ -19691,7 +19690,7 @@
 			(uuid "58d0ae97-e652-422c-906e-055b5c0b0f33")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP6")
 					(unit 1)
@@ -19760,7 +19759,7 @@
 			(uuid "9c7153a4-6789-4d7a-8be7-1ab0b3bf9e4b")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J2")
 					(unit 1)
@@ -19832,7 +19831,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR06")
 					(unit 1)
@@ -19899,7 +19898,7 @@
 			(uuid "3fb9ddfa-4b04-4bab-850f-c662252978f2")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP3")
 					(unit 1)
@@ -19966,7 +19965,7 @@
 			(uuid "6ec9a84a-9867-4cba-a77d-e9e6d6a6ce49")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D3")
 					(unit 1)
@@ -20039,7 +20038,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
 					(unit 1)
@@ -20111,7 +20110,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
 					(unit 1)
@@ -20179,7 +20178,7 @@
 			(uuid "e58ccbc3-d777-4201-b187-34bb7a8b6200")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J7")
 					(unit 1)
@@ -20265,7 +20264,7 @@
 			(uuid "c4492256-ce48-45ed-a5b2-82d251bd6a0c")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
 					(unit 3)
@@ -20337,7 +20336,7 @@
 					(unit 1)
 				)
 			)
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#+3V09")
 					(unit 1)
@@ -20404,7 +20403,7 @@
 			(uuid "b25b7409-de94-449f-951b-1420fb12fbb7")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#GND01")
 					(unit 1)
@@ -20536,7 +20535,7 @@
 			(uuid "66000585-235b-40cf-bab4-3bf11d452bc5")
 		)
 		(instances
-			(project "antenna_top_cap"
+			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J9")
 					(unit 1)
