@@ -8320,10 +8320,6 @@
 		(uuid "37bac648-c6cd-4098-a2c4-0904b6403007")
 	)
 	(no_connect
-		(at 114.3 114.3)
-		(uuid "37c95e24-d97e-4674-9f93-87aae8299eec")
-	)
-	(no_connect
 		(at 198.12 118.11)
 		(uuid "3b2c796a-e8a9-4c54-9b6d-5f7250a57b10")
 	)
@@ -8364,7 +8360,7 @@
 		(uuid "a07b6bbd-30f9-4faa-9968-fc2dbbd951fb")
 	)
 	(no_connect
-		(at 85.09 114.3)
+		(at 100.33 114.3)
 		(uuid "c1816a55-90a4-41f4-850c-8aaf3dd61b38")
 	)
 	(no_connect
@@ -8460,16 +8456,6 @@
 			(type default)
 		)
 		(uuid "0d29c582-52e8-4025-af65-81b3fd6d7939")
-	)
-	(wire
-		(pts
-			(xy 127 114.3) (xy 127 111.506)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0df7947d-3e8c-4bce-813a-474cf6fd380e")
 	)
 	(wire
 		(pts
@@ -9303,7 +9289,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.854 111.506) (xy 101.854 113.665)
+			(xy 117.094 111.506) (xy 117.094 113.665)
 		)
 		(stroke
 			(width 0)
@@ -9350,16 +9336,6 @@
 			(type default)
 		)
 		(uuid "743c83c7-cc65-48d1-914c-fab704e515df")
-	)
-	(wire
-		(pts
-			(xy 127 111.506) (xy 131.064 111.506)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7445b774-f807-46dd-a5e1-4b172d8fe68c")
 	)
 	(wire
 		(pts
@@ -9573,7 +9549,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 111.506) (xy 101.854 111.506)
+			(xy 113.03 111.506) (xy 117.094 111.506)
 		)
 		(stroke
 			(width 0)
@@ -10153,16 +10129,6 @@
 	)
 	(wire
 		(pts
-			(xy 131.064 111.506) (xy 131.064 113.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80030a5-4bb3-475c-9ef4-9f68dfa90987")
-	)
-	(wire
-		(pts
 			(xy 217.043 120.65) (xy 219.456 120.65)
 		)
 		(stroke
@@ -10483,7 +10449,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 114.3) (xy 97.79 111.506)
+			(xy 113.03 114.3) (xy 113.03 111.506)
 		)
 		(stroke
 			(width 0)
@@ -11129,28 +11095,6 @@
 			)
 		)
 	)
-	(global_label "SDA1"
-		(shape bidirectional)
-		(at 121.92 114.3 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "330eebbb-33eb-451a-a045-ede50130f2aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 105.5053 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OUT2"
 		(shape input)
 		(at 217.043 120.65 180)
@@ -11417,7 +11361,7 @@
 	)
 	(global_label "SCL1"
 		(shape bidirectional)
-		(at 90.17 114.3 90)
+		(at 105.41 114.3 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11427,7 +11371,7 @@
 		)
 		(uuid "6bd8aee2-f29a-44fa-a478-1328cce6170f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 105.5658 90)
+			(at 105.41 105.5658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11766,28 +11710,6 @@
 			)
 		)
 	)
-	(global_label "SCL1"
-		(shape bidirectional)
-		(at 119.38 114.3 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc54e2ec-7fa5-450e-961f-06ff35e0591b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 105.5658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FC_USB_D+"
 		(shape input)
 		(at 54.61 90.17 0)
@@ -11944,7 +11866,7 @@
 	)
 	(global_label "SDA1"
 		(shape bidirectional)
-		(at 92.71 114.3 90)
+		(at 107.95 114.3 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11954,7 +11876,7 @@
 		)
 		(uuid "f5c84597-b031-4715-a35e-a469a698a911")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 105.5053 90)
+			(at 107.95 105.5053 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12363,7 +12285,7 @@
 	)
 	(symbol
 		(lib_id "BM04B-SRSS-TB_LF__SN_:BM04B-SRSS-TB(LF)(SN)")
-		(at 90.17 124.46 270)
+		(at 105.41 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12371,7 +12293,7 @@
 		(dnp no)
 		(uuid "0709fdcc-d9da-4b62-8fe6-75671bd00331")
 		(property "Reference" "J4"
-			(at 101.8032 123.825 90)
+			(at 117.0432 123.825 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12380,7 +12302,7 @@
 			)
 		)
 		(property "Value" "BM04B-SRSS-TB(LF)(SN)"
-			(at 80.264 131.318 90)
+			(at 95.504 131.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12389,7 +12311,7 @@
 			)
 		)
 		(property "Footprint" "Antenna_board:JST_BM04B-SRSS-TB(LF)(SN)"
-			(at 90.17 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12399,7 +12321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12408,7 +12330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12417,7 +12339,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 90.17 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12427,7 +12349,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "BM04B-SRSS-TB(LF)(SN)"
-			(at 90.17 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12437,7 +12359,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 90.17 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,7 +12369,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 90.17 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12457,7 +12379,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 90.17 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,77 +13032,6 @@
 			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#GND03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 124.46 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23c36bc4-8a35-4f39-b0cc-98d3d2790ff8")
-		(property "Reference" "#PWR053"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 127.254 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cdf785e-498b-4b7e-b59a-9ea0a72c6d21")
-		)
-		(instances
-			(project "flight_computer_dev_board_rfm98pw"
-				(path "/c64c0d72-a9f6-4f3a-891e-1f647558f538"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-			(project "antenna_top_cap_v2"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16024,138 +15875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BM04B-SRSS-TB_LF__SN_:BM04B-SRSS-TB(LF)(SN)")
-		(at 119.38 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "778d45f0-abee-4d8a-8aa7-568bb0a05ca4")
-		(property "Reference" "J8"
-			(at 131.0132 123.825 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BM04B-SRSS-TB(LF)(SN)"
-			(at 108.204 131.826 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Antenna_board:JST_BM04B-SRSS-TB(LF)(SN)"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "BM04B-SRSS-TB(LF)(SN)"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b21053aa-4300-41c2-ae43-731003fb6cc1")
-		)
-		(pin "2"
-			(uuid "071eedb5-1688-4ee1-9b8c-5dd71cca8b8c")
-		)
-		(pin "3"
-			(uuid "b50abcfe-a2df-4f9e-ac7e-0076a684eae8")
-		)
-		(pin "4"
-			(uuid "fe14babc-8f6d-4bc7-8e49-b2fb97e6d1ac")
-		)
-		(pin "S1"
-			(uuid "7f26030e-1662-44b8-b8ff-b09efe155015")
-		)
-		(pin "S2"
-			(uuid "2d9b760d-4b7e-4af6-84a0-d67d4e569d81")
-		)
-		(instances
-			(project "antenna_top_cap_v2"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transformer:0433BM15A0001")
 		(at 261.874 152.4 0)
 		(unit 1)
@@ -16926,7 +16645,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 95.25 114.3 0)
+		(at 110.49 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16934,7 +16653,7 @@
 		(dnp no)
 		(uuid "97cb8a15-5f35-4fd9-9cad-0b3a20eace4e")
 		(property "Reference" "#PWR053"
-			(at 95.25 118.11 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16943,7 +16662,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 97.028 108.966 0)
+			(at 112.268 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16951,7 +16670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 114.3 0)
+			(at 110.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16960,7 +16679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 114.3 0)
+			(at 110.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16969,7 +16688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 114.3 0)
+			(at 110.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17772,7 +17491,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.854 113.665 0)
+		(at 117.094 113.665 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17781,7 +17500,7 @@
 		(fields_autoplaced yes)
 		(uuid "b922a420-4aca-4305-8951-31747ac98527")
 		(property "Reference" "#PWR054"
-			(at 101.854 120.015 0)
+			(at 117.094 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17790,7 +17509,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.854 118.745 0)
+			(at 117.094 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17798,7 +17517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.854 113.665 0)
+			(at 117.094 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17807,7 +17526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.854 113.665 0)
+			(at 117.094 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17816,7 +17535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.854 113.665 0)
+			(at 117.094 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20241,78 +19960,6 @@
 			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 131.064 113.665 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4c532d8-15c4-4b12-8f7f-11d34b061477")
-		(property "Reference" "#PWR054"
-			(at 131.064 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 131.064 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.064 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 131.064 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 131.064 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b81e2d8-7bd1-437a-bbba-efe7a2e52e43")
-		)
-		(instances
-			(project "flight_computer_dev_board_rfm98pw"
-				(path "/c64c0d72-a9f6-4f3a-891e-1f647558f538"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-			(project "antenna_top_cap_v2"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
