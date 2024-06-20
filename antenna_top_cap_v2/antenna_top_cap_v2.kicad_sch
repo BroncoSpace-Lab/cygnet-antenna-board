@@ -8433,16 +8433,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 35.56) (xy 152.4 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07d445e1-5cc3-479d-bae6-4bf1ad5332c4")
-	)
-	(wire
-		(pts
 			(xy 228.473 74.93) (xy 228.473 65.151)
 		)
 		(stroke
@@ -8660,6 +8650,16 @@
 			(type default)
 		)
 		(uuid "2a7293c9-b292-4e53-b0b2-cad79d0fc097")
+	)
+	(wire
+		(pts
+			(xy 152.4 35.56) (xy 170.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9144c8-cbc3-4e92-8226-2c59675d4b5d")
 	)
 	(wire
 		(pts
@@ -10789,7 +10789,7 @@
 		(uuid "3d711d40-091b-46c5-9b4a-a36d4b2cc7d6")
 	)
 	(label "SDA1"
-		(at 162.56 35.56 0)
+		(at 158.75 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13123,7 +13123,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23c36bc4-8a35-4f39-b0cc-98d3d2790ff8")
 		(property "Reference" "#PWR053"
 			(at 124.46 118.11 0)
@@ -13135,7 +13134,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 109.22 0)
+			(at 127.254 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
