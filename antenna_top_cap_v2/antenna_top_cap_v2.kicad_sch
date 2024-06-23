@@ -8344,6 +8344,10 @@
 		(uuid "940f1f73-3480-4ad9-bd31-7bc6d52d0e7b")
 	)
 	(no_connect
+		(at 265.43 33.02)
+		(uuid "942f1b35-0221-4c67-80ca-cd61ddb47805")
+	)
+	(no_connect
 		(at 167.64 128.27)
 		(uuid "a07b6bbd-30f9-4faa-9968-fc2dbbd951fb")
 	)
@@ -13514,7 +13518,7 @@
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:RESISTOR_4PACK")
 		(at 205.74 31.75 90)
 		(mirror x)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13592,7 +13596,7 @@
 			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
-					(unit 2)
+					(unit 3)
 				)
 			)
 		)
@@ -20557,7 +20561,7 @@
 	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:RESISTOR_4PACK")
 		(at 177.8 30.48 270)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20635,7 +20639,7 @@
 			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
