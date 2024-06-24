@@ -5585,102 +5585,6 @@
 				)
 			)
 		)
-		(symbol "GND_3"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_3_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_3_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0) hide)
@@ -8551,16 +8455,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 21.59) (xy 121.92 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd66832-3744-4e5c-9553-b92cfdeb38fe")
-	)
-	(wire
-		(pts
 			(xy 222.377 147.32) (xy 241.3 147.32)
 		)
 		(stroke
@@ -8578,16 +8472,6 @@
 			(type default)
 		)
 		(uuid "21737787-c661-45ab-b051-432590dff4ab")
-	)
-	(wire
-		(pts
-			(xy 110.49 138.43) (xy 110.49 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b4f1ba-d0ea-4c97-9601-4645a9104253")
 	)
 	(wire
 		(pts
@@ -9581,16 +9465,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 21.59) (xy 121.92 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da50c38-c89c-45e7-9089-097a179e2921")
-	)
-	(wire
-		(pts
 			(xy 242.57 33.02) (xy 242.57 40.64)
 		)
 		(stroke
@@ -9808,16 +9682,6 @@
 			(type default)
 		)
 		(uuid "a5a07dd8-3e2b-4b52-affa-39e9e82ec5cb")
-	)
-	(wire
-		(pts
-			(xy 119.38 20.32) (xy 125.73 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a65c90d7-9193-496c-92d0-2167f13e81d0")
 	)
 	(wire
 		(pts
@@ -10161,16 +10025,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 138.43) (xy 110.49 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d04f61e2-d9b4-457c-90bf-2ea68f91b3ea")
-	)
-	(wire
-		(pts
 			(xy 90.17 83.82) (xy 85.471 83.82)
 		)
 		(stroke
@@ -10361,13 +10215,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 161.29) (xy 106.68 138.43)
+			(xy 116.84 21.59) (xy 130.81 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e56e73fc-b93d-46e9-b4ad-402b1ebd5c6b")
+		(uuid "e5d75089-8a39-4a65-abca-1538d68c8522")
 	)
 	(wire
 		(pts
@@ -10428,6 +10282,16 @@
 			(type default)
 		)
 		(uuid "e9dfad04-b8e7-4d84-bdce-f936ad904630")
+	)
+	(wire
+		(pts
+			(xy 130.81 20.32) (xy 129.54 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede8496f-5024-4cd2-982d-4ccda3ba51be")
 	)
 	(wire
 		(pts
@@ -10904,6 +10768,28 @@
 		(uuid "06826cf6-be06-4666-8ea2-5e65c92c96b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 193.8519 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BURN_GND"
+		(shape output)
+		(at 106.68 161.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bafb61c-06ed-4359-be99-a37fb2395659")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 148.2657 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11638,6 +11524,28 @@
 			)
 		)
 	)
+	(global_label "BURN_GND"
+		(shape output)
+		(at 129.54 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba04a018-e624-4307-81a5-c2384aa9b5d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.5157 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EPS_USB_D-"
 		(shape input)
 		(at 52.07 43.18 0)
@@ -11882,7 +11790,7 @@
 	)
 	(global_label "BURN"
 		(shape input)
-		(at 119.38 20.32 180)
+		(at 116.84 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11892,7 +11800,7 @@
 		)
 		(uuid "f9abe0ec-e321-4e07-95b6-f33faa9e4db1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.1938 20.32 0)
+			(at 108.6538 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17534,72 +17442,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 121.92 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbeb5b0b-295d-4d37-a888-94a38134ee6e")
-		(property "Reference" "#PWR023"
-			(at 121.92 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08489161-8245-4ff3-ad76-55c8c3524c6f")
-		)
-		(instances
-			(project "antenna_top_cap_v2"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
 		(at 238.76 33.02 0)
 		(unit 1)
@@ -18435,72 +18277,6 @@
 			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 110.49 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d19a9861-341a-4be5-80b8-258530dc7d99")
-		(property "Reference" "#PWR021"
-			(at 110.49 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 144.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4ed32ff-b618-483a-b89a-cdaf5be7898a")
-		)
-		(instances
-			(project "antenna_top_cap_v2"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -20492,7 +20268,7 @@
 	)
 	(symbol
 		(lib_id "Antenna:Burn_Wire")
-		(at 125.73 21.59 180)
+		(at 130.81 21.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20501,7 +20277,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa32923c-0d79-424a-809a-3ac3931986d1")
 		(property "Reference" "J7"
-			(at 128.788 23.368 0)
+			(at 133.868 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20509,7 +20285,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 119.888 19.177 0)
+			(at 124.968 19.177 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20517,7 +20293,7 @@
 			)
 		)
 		(property "Footprint" "Antenna_board:Burn_Wire"
-			(at 119.888 19.177 0)
+			(at 124.968 19.177 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20526,7 +20302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.888 19.177 0)
+			(at 124.968 19.177 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20535,7 +20311,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 21.59 0)
+			(at 130.81 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
