@@ -7,5 +7,6 @@ This antenna board is a reformat of the V1 Antenna Board that consolidates a bun
 
 ## antenna_top_cap_v2
 This version of the antenna top cap featuers major changes to the antenna feed path and debug passthroughs. Notable features are as follows: 
-
+- Updated Balun Part Number (no longer sucks! still sucks to solder though)
+- Addition of 12-pos and 5-pos Battery Board and Flight Controller Board debug connectors.
 
