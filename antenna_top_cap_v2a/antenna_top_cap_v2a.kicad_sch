@@ -718,6 +718,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Adafruit VEML7700-eagle-import:VEML7700"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 2.54 10.16 0)
+				(effects
+					(font
+						(size 2.54 2.159)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "VEML7700"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Adafruit VEML7700:VEML7700"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VEML7700_1_0"
+				(polyline
+					(pts
+						(xy -10.16 10.16) (xy 10.16 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -10.16) (xy -10.16 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy 10.16 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy -10.16 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "VEML7700"
+					(at 2.54 -12.7 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Adafruit VL6180 Time of Flight Sensor-eagle-import:2.8V"
 			(power)
 			(exclude_from_sim no)
@@ -6188,6 +6378,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Light Sensor"
+		(exclude_from_sim no)
+		(at 109.982 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f310441-ea44-427e-a21e-f969d2eb9313")
+	)
 	(text "Two Pin Connections\n"
 		(exclude_from_sim no)
 		(at 106.68 13.462 0)
@@ -6208,6 +6408,16 @@
 			(justify left bottom)
 		)
 		(uuid "295ce959-1fb1-45cf-b728-e1fe2789b45c")
+	)
+	(text "I2C Address 0x19"
+		(exclude_from_sim no)
+		(at 99.822 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fbc267b-2a8a-4b4b-bcdf-41c9d7cb7c44")
 	)
 	(text "Antenna Deployment Sensor"
 		(exclude_from_sim no)
@@ -6330,10 +6540,10 @@
 		(uuid "72f5aabc-3f17-4f3f-819c-cfa546e9482b")
 	)
 	(junction
-		(at 102.87 86.36)
+		(at 100.33 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "858ae0eb-aa4c-46af-bbaa-94a9aa228201")
+		(uuid "7817601b-dd73-42c7-aa70-f19ebe98de56")
 	)
 	(junction
 		(at 71.12 118.11)
@@ -6558,6 +6768,16 @@
 			(type default)
 		)
 		(uuid "15895277-e964-46a7-89fe-64c385002db3")
+	)
+	(polyline
+		(pts
+			(xy 77.47 58.42) (xy 77.47 157.48)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "167c3f3a-27f9-498c-ba2f-2c295d73a969")
 	)
 	(wire
 		(pts
@@ -6831,6 +7051,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 88.9) (xy 100.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5730598d-cf8e-49d1-af4c-c9c8fc08b468")
+	)
+	(wire
+		(pts
 			(xy 35.56 156.21) (xy 31.75 156.21)
 		)
 		(stroke
@@ -6901,16 +7131,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 86.36) (xy 102.87 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b5b501-8b71-45e8-91f9-5deb8aaea264")
-	)
-	(wire
-		(pts
 			(xy 124.46 36.83) (xy 121.92 36.83)
 		)
 		(stroke
@@ -6918,6 +7138,16 @@
 			(type default)
 		)
 		(uuid "67fe2d94-7a02-4b6e-9243-c87f8e88dabb")
+	)
+	(wire
+		(pts
+			(xy 92.71 135.89) (xy 95.25 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cab3e09-a269-4770-b040-e142cd9dd9dc")
 	)
 	(wire
 		(pts
@@ -7189,6 +7419,16 @@
 		)
 		(uuid "a21c3b72-8956-4fd3-a8b6-f9ac8e83e496")
 	)
+	(polyline
+		(pts
+			(xy 77.47 157.48) (xy 138.43 157.48)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a53f6419-ae37-41b0-a72e-a2cb8675459f")
+	)
 	(wire
 		(pts
 			(xy 54.61 132.08) (xy 54.61 134.62)
@@ -7391,6 +7631,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 88.9) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadf502c-369a-491f-bfb0-503a829aa27f")
+	)
+	(wire
+		(pts
 			(xy 49.53 29.21) (xy 68.58 29.21)
 		)
 		(stroke
@@ -7528,6 +7778,16 @@
 			(type default)
 		)
 		(uuid "fa156618-940a-4a17-ae62-3c641dfefeba")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 92.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfbd156-37f2-44b7-bea5-c9ecc26c0799")
 	)
 	(wire
 		(pts
@@ -7695,6 +7955,28 @@
 			)
 		)
 	)
+	(global_label "SDA1"
+		(shape input)
+		(at 92.71 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "228f51d7-6e23-43bd-b70d-24fdd5072937")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.9472 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape input)
 		(at 49.53 39.37 0)
@@ -7713,6 +7995,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL1"
+		(shape input)
+		(at 92.71 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2526e10c-6a4c-4492-872e-d9e43ff7dd99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.0077 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8798,6 +9102,71 @@
 			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar-panel-side-Z-rescue:+3.3V-power")
+		(at 110.49 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41bbe33f-9db6-41f2-a382-243262a33f26")
+		(property "Reference" "#PWR0101"
+			(at 110.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.871 113.7158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "014ab4f1-9f05-4f8b-a381-6a0e749d99f1")
+		)
+		(instances
+			(project "antenna_top_cap_v2a"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -11169,6 +11538,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baf6e4db-0c81-4cc5-9196-8dc283127764")
+		(property "Reference" "#PWR0103"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.617 152.9842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ce5b7ac-bbd6-4668-9866-5b1f45c1f924")
+		)
+		(instances
+			(project "antenna_top_cap_v2a"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
 		(at 238.76 33.02 0)
 		(unit 1)
@@ -11766,6 +12200,81 @@
 			(project "antenna_top_cap_v2a"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit VEML7700-eagle-import:VEML7700")
+		(at 110.49 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8d4cba0-e28a-4dbf-aad3-80fd350ab0b5")
+		(property "Reference" "U4"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 2.54 2.159)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VEML7700"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VEML7700-TT:XDCR_VEML7700-TT"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "999dd541-df51-4cee-8b6b-2596e1c2e18a")
+		)
+		(pin "2"
+			(uuid "874633a1-4d4b-40cb-b9a9-5a7cd57692c2")
+		)
+		(pin "3"
+			(uuid "82297e29-7372-444a-bb79-51b5495f1450")
+		)
+		(pin "4"
+			(uuid "93c8dc9c-3410-4849-9afa-f29ca124e33c")
+		)
+		(instances
+			(project "antenna_top_cap_v2a"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U4")
 					(unit 1)
 				)
 			)
