@@ -5301,329 +5301,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transformer:0433BM15A0001"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U3"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0433BM15A0001"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "RF_Converter:Balun_Johanson_0896BM15A0001"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.johansontechnology.com/datasheets/0433BM15A0001/0433BM15A0001.pdf"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "balun rf transformer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Balun*Johanson*0896BM15A0001*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0433BM15A0001_1_1"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -1.524 5.08) (xy -1.524 3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 3.048)
-					(mid -0.7653 2.286)
-					(end -1.524 1.524)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 1.524)
-					(mid -0.7653 0.762)
-					(end -1.524 0)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 0)
-					(mid -0.7653 -0.762)
-					(end -1.524 -1.524)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -1.524)
-					(mid -0.7653 -2.286)
-					(end -1.524 -3.048)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -3.048) (xy -1.524 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 3.048) (xy 1.524 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 1.524)
-					(mid 0.7653 2.286)
-					(end 1.524 3.048)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 0)
-					(mid 0.7653 0.762)
-					(end 1.524 1.524)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -1.524)
-					(mid 0.7653 -0.762)
-					(end 1.524 0)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -3.048)
-					(mid 0.7653 -2.286)
-					(end 1.524 -1.524)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 1.524 -5.08) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "VL6180X0NR:VL6180XV0NR/1"
 			(pin_names
 				(offset 0.254)
@@ -5951,6 +5628,198 @@
 						(effects
 							(font
 								(size 1.4986 1.4986)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:HHM1591D1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U5"
+				(at -10.668 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HHM1591D1"
+				(at -10.668 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:XFMR-SMD_HHM1591D1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/_TDK_HHM1591D1_TDK-HHM1591D1_C74209.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C74209"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HHM1591D1_0_1"
+				(rectangle
+					(start -26.67 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -25.4 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 2.54 0)
+					(length 2.54)
+					(name "Unbalancedport"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 -2.54 0)
+					(length 2.54)
+					(name "Balancedport"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "Balancedport"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HHM1591D1_1_1"
+				(pin unspecified line
+					(at -29.21 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -6492,6 +6361,12 @@
 		(uuid "f7b9a8e3-885c-4179-83dd-b79f3a665279")
 	)
 	(junction
+		(at 168.91 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c8a0ff3-7317-4f0f-8ef1-c67b9682c13a")
+	)
+	(junction
 		(at 205.74 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6652,6 +6527,10 @@
 		(uuid "c3bb7e9a-43a7-45d8-99af-f0d571f97c2d")
 	)
 	(no_connect
+		(at 220.98 128.27)
+		(uuid "cb062b80-3c3d-4920-a843-e99afe886c63")
+	)
+	(no_connect
 		(at 123.19 83.82)
 		(uuid "d8db5a81-cefc-4d29-b1ab-e8b59b43d938")
 	)
@@ -6801,16 +6680,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.377 147.32) (xy 256.794 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21282a77-39b5-4d9f-bf8b-8fec0778fb5b")
-	)
-	(wire
-		(pts
 			(xy 218.44 77.47) (xy 223.393 77.47)
 		)
 		(stroke
@@ -6848,16 +6717,6 @@
 			(type default)
 		)
 		(uuid "2aa56079-5466-4e7d-aaa2-79a004c7e617")
-	)
-	(wire
-		(pts
-			(xy 272.034 151.13) (xy 266.954 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c5b8dc5-0170-4106-9291-40c9e768b066")
 	)
 	(wire
 		(pts
@@ -6969,6 +6828,26 @@
 		)
 		(uuid "3e0e1e07-ea9d-486a-aa14-ccb92b11b572")
 	)
+	(wire
+		(pts
+			(xy 203.2 140.97) (xy 220.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4025adc4-8798-4368-b385-056b2281e089")
+	)
+	(wire
+		(pts
+			(xy 220.98 130.81) (xy 228.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439c955b-e31b-4208-ae3f-bdce02af79a4")
+	)
 	(polyline
 		(pts
 			(xy 138.43 102.87) (xy 138.43 181.61)
@@ -7001,13 +6880,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.954 151.13) (xy 266.954 147.32)
+			(xy 202.946 146.05) (xy 203.2 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49245dba-4526-432b-9225-17f7ee9fba75")
+		(uuid "4b0f8203-2359-44c1-87f8-8fc547e26ee6")
 	)
 	(wire
 		(pts
@@ -7048,6 +6927,16 @@
 			(type default)
 		)
 		(uuid "543c21e3-4d27-4ff2-b2f0-108545510240")
+	)
+	(wire
+		(pts
+			(xy 173.99 128.27) (xy 182.88 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568764aa-02f9-4cbd-a4a4-5501f1202931")
 	)
 	(wire
 		(pts
@@ -7101,6 +6990,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 140.97) (xy 200.66 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f21cfbc-fd28-4d3f-96e8-e765856a521e")
+	)
+	(wire
+		(pts
 			(xy 265.43 27.94) (xy 269.24 27.94)
 		)
 		(stroke
@@ -7121,13 +7020,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.954 153.035) (xy 266.954 157.48)
+			(xy 171.45 135.89) (xy 168.91 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "644ab5dd-cce3-44a3-b7a1-392e1df9957e")
+		(uuid "64cc5d14-ad7b-4bbb-84df-96bf2da78ead")
 	)
 	(wire
 		(pts
@@ -7291,6 +7190,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 130.81) (xy 171.45 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819b442b-9312-44b1-8228-74461c31e8d6")
+	)
+	(wire
+		(pts
 			(xy 100.33 91.44) (xy 100.33 92.71)
 		)
 		(stroke
@@ -7351,6 +7260,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 138.43) (xy 168.91 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ef922e-2108-456b-a72d-90ca1d6b482a")
+	)
+	(wire
+		(pts
 			(xy 238.76 25.4) (xy 238.76 27.94)
 		)
 		(stroke
@@ -7358,6 +7277,16 @@
 			(type default)
 		)
 		(uuid "91f29a7d-d2ef-4927-b0cd-5b4466f9d5d3")
+	)
+	(wire
+		(pts
+			(xy 228.6 130.81) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b996ab-5d72-49fe-ad6c-8fdcdfe81c59")
 	)
 	(wire
 		(pts
@@ -7388,16 +7317,6 @@
 			(type default)
 		)
 		(uuid "97c3b78b-c47e-453d-ad26-8e026214db73")
-	)
-	(wire
-		(pts
-			(xy 272.034 153.035) (xy 266.954 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9981c24c-85d5-4323-adb3-38a4bf902e29")
 	)
 	(wire
 		(pts
@@ -7441,6 +7360,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 130.81) (xy 171.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9913e63-27a1-48ad-8a9d-fcbb9b14478f")
+	)
+	(wire
+		(pts
 			(xy 143.51 77.47) (xy 160.02 77.47)
 		)
 		(stroke
@@ -7461,6 +7390,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 133.35) (xy 182.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1ea56b-046b-4585-889d-b2806a09d629")
+	)
+	(wire
+		(pts
+			(xy 203.2 146.05) (xy 203.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8ec62b-9e77-479d-8d82-33d791eef92a")
+	)
+	(wire
+		(pts
 			(xy 54.61 129.54) (xy 50.8 129.54)
 		)
 		(stroke
@@ -7478,6 +7427,16 @@
 			(type default)
 		)
 		(uuid "b0f637e7-82e9-4cb4-a540-df6b3d4c13ca")
+	)
+	(wire
+		(pts
+			(xy 200.66 140.97) (xy 200.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58d25e6-7b62-411a-af2b-e16aa33c1b40")
 	)
 	(polyline
 		(pts
@@ -7528,6 +7487,16 @@
 			(type default)
 		)
 		(uuid "c4b5b0ab-b1e0-4d8c-9def-c008716838a5")
+	)
+	(wire
+		(pts
+			(xy 200.66 146.05) (xy 201.041 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa2aacb-ace5-4183-b8b7-197c47d3996d")
 	)
 	(wire
 		(pts
@@ -7691,6 +7660,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 135.89) (xy 168.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee40e6d3-43bf-4dbb-bc68-6c6fbb5118e9")
+	)
+	(wire
+		(pts
 			(xy 88.9 96.52) (xy 113.03 96.52)
 		)
 		(stroke
@@ -7788,6 +7767,16 @@
 			(type default)
 		)
 		(uuid "fbfbd156-37f2-44b7-bea5-c9ecc26c0799")
+	)
+	(wire
+		(pts
+			(xy 220.98 133.35) (xy 220.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc16721f-65e8-4abd-9fed-cbec950acf89")
 	)
 	(wire
 		(pts
@@ -8523,7 +8512,8 @@
 	)
 	(symbol
 		(lib_id "Antenna:Tape_Measure_Antenna")
-		(at 271.272 147.447 0)
+		(at 197.358 145.288 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8531,7 +8521,7 @@
 		(dnp no)
 		(uuid "22997a73-d19a-4dad-bc8a-26e93ac57374")
 		(property "Reference" "J6"
-			(at 282.702 152.273 0)
+			(at 202.184 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +8530,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 271.272 147.447 0)
+			(at 197.358 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8548,7 +8538,7 @@
 			)
 		)
 		(property "Footprint" "Antenna_board:Tape_Measure_Antenna"
-			(at 271.272 147.447 0)
+			(at 197.358 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +8547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.272 147.447 0)
+			(at 197.358 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,7 +8556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.272 147.447 0)
+			(at 197.358 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10372,32 +10362,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Transformer:0433BM15A0001")
-		(at 261.874 152.4 0)
+		(lib_id "easyeda2kicad:HHM1591D1")
+		(at 212.09 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "79aba836-30e9-4c68-ba88-7f80fc3fa676")
-		(property "Reference" "U3"
-			(at 262.128 142.24 0)
+		(fields_autoplaced yes)
+		(uuid "75c9840b-3a77-4b99-bbb0-c57e07266a52")
+		(property "Reference" "U5"
+			(at 201.422 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NCS1.5-232+"
-			(at 262.636 144.526 0)
+		(property "Value" "HHM1591D1"
+			(at 201.422 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RF_Converter:Balun_Johanson_0896BM15A0001"
-			(at 261.874 165.354 0)
+		(property "Footprint" "easyeda2kicad:XFMR-SMD_HHM1591D1"
+			(at 212.09 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10405,8 +10396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.minicircuits.com/pdfs/NCS1.5-232+.pdf"
-			(at 261.874 144.78 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/_TDK_HHM1591D1_TDK-HHM1591D1_C74209.html"
+			(at 212.09 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10415,7 +10406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.874 152.4 0)
+			(at 212.09 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,28 +10414,37 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "61431831-95fd-41fd-a639-dee84a805329")
-		)
-		(pin "2"
-			(uuid "d9d85322-a96a-45f0-9707-18aec19f430e")
-		)
-		(pin "3"
-			(uuid "0e34a33e-e5a3-4e39-9393-16c8c5838770")
-		)
-		(pin "4"
-			(uuid "857172df-a035-41a9-a2d3-570ba90aa19d")
-		)
-		(pin "5"
-			(uuid "e9ae9aca-e85a-4fea-82a7-df1fadea96a8")
+		(property "LCSC Part" "C74209"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "b8947222-2e52-429f-9c81-df8bb7f9febc")
+			(uuid "ef7aeadd-15f6-4e9e-aa72-0a534b54f8d8")
+		)
+		(pin "3"
+			(uuid "479f1556-1438-4779-84be-1d77fc30d936")
+		)
+		(pin "5"
+			(uuid "c026fcc1-a8a4-4ee6-94b2-d8700d7ebe75")
+		)
+		(pin "2"
+			(uuid "6c9b8212-be03-4e05-95f1-dc68b2b5b6f0")
+		)
+		(pin "4"
+			(uuid "e338e069-1fac-47e8-9934-ea2b432433e4")
+		)
+		(pin "1"
+			(uuid "b36c659c-0638-4d0c-98a0-70ef2eef4cce")
 		)
 		(instances
-			(project "antenna_top_cap_v2"
+			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10512,6 +10512,73 @@
 			(project "antenna_top_cap_v2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86df683c-8e90-47e0-a44a-e643183951fa")
+		(property "Reference" "#PWR04"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 141.6034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb2c7f62-534f-4705-821e-11b105075017")
+		)
+		(instances
+			(project "antenna_top_cap_v2a"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10966,7 +11033,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 217.297 147.32 0)
+		(at 168.91 128.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10976,7 +11043,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d4bc6c9-84b9-4cda-81a1-c782529fffa8")
 		(property "Reference" "J5"
-			(at 213.995 146.9782 0)
+			(at 165.608 127.9282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10985,7 +11052,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 213.995 149.5182 0)
+			(at 165.608 130.4682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +11061,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
-			(at 217.297 147.32 0)
+			(at 168.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +11070,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 217.297 147.32 0)
+			(at 168.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,7 +11079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.297 147.32 0)
+			(at 168.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12702,71 +12769,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:GND")
-		(at 259.334 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f349e9ef-71e0-4b64-9c19-8ab13918ee02")
-		(property "Reference" "#GND04"
-			(at 259.334 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.334 163.83 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "Adafruit ItsyBitsy RP2040:"
-			(at 259.334 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.334 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.334 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c59a90bb-5a3b-4636-93c5-a5d6ef55c727")
-		)
-		(instances
-			(project "antenna_top_cap_v2"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#GND04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit VL6180 Time of Flight Sensor-eagle-import:RESISTOR_0603_NOOUT")
 		(at 154.94 63.5 90)
 		(unit 1)
@@ -12970,7 +12972,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.297 152.4 0)
+		(at 168.91 138.43 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12980,7 +12982,7 @@
 		(fields_autoplaced yes)
 		(uuid "f845e2f3-5f82-440d-843c-5b5e43cc5c6b")
 		(property "Reference" "#PWR03"
-			(at 217.297 158.75 0)
+			(at 168.91 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12989,7 +12991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.297 156.8434 0)
+			(at 168.91 142.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12997,7 +12999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.297 152.4 0)
+			(at 168.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13006,7 +13008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.297 152.4 0)
+			(at 168.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13015,7 +13017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.297 152.4 0)
+			(at 168.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
