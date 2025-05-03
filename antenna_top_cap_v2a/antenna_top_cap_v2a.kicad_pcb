@@ -1022,7 +1022,7 @@
 		(path "/ca02a1e3-a9d1-49ad-8fd3-eefe3ebff7cc")
 		(sheetname "/")
 		(sheetfile "antenna_top_cap_v2a.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -2293,7 +2293,7 @@
 		(path "/c3c42601-5c94-4a33-ba2b-4da7feb215e7")
 		(sheetname "/")
 		(sheetfile "antenna_top_cap_v2a.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
