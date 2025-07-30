@@ -7032,6 +7032,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 50.8) (xy 92.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25cf8bb0-f387-4965-92be-d9da2ec58d15")
+	)
+	(wire
+		(pts
 			(xy 46.99 154.94) (xy 59.69 154.94)
 		)
 		(stroke
@@ -7329,6 +7339,16 @@
 			(type default)
 		)
 		(uuid "5097f7ee-c4bd-45ee-a1f7-0f78004721d6")
+	)
+	(wire
+		(pts
+			(xy 95.25 50.8) (xy 92.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e89bdf-6641-436b-9606-40f91465e5f1")
 	)
 	(wire
 		(pts
@@ -8702,9 +8722,9 @@
 			)
 		)
 	)
-	(global_label "BURN"
-		(shape output)
-		(at 36.83 31.75 180)
+	(global_label "WDT_DISABLE"
+		(shape input)
+		(at 95.25 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8712,9 +8732,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a14bc080-a978-416f-8dea-959597b8ac9a")
+		(uuid "9e10b357-aecc-47e3-a3b2-6197ab663163")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.6438 31.75 0)
+			(at 79.9882 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,6 +8801,28 @@
 		(uuid "d409709c-cf40-44ee-8b61-e6f7f78bd958")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.9959 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WDT_DISABLE"
+		(shape input)
+		(at 36.83 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6f5e0e8-f09f-4ffa-88dd-52eb7de1973b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.5682 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,6 +13355,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 100.33 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcc2ac66-46be-4bba-b5fa-65caf5ca6580")
+		(property "Reference" "J10"
+			(at 102.87 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WDT Disable Jumper"
+			(at 78.994 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80ecd48e-6f34-47de-8a5b-49636cb08766")
+		)
+		(pin "2"
+			(uuid "a20de500-c7b9-416e-b625-333336498484")
+		)
+		(instances
+			(project "antenna_top_cap_v2b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "solar-panel-side-Z-rescue:+3.3V-power")
 		(at 113.03 69.85 0)
 		(unit 1)
@@ -13729,6 +13840,72 @@
 			(project "antenna_top_cap_v2a"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 92.71 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0a4b275-ee25-46bd-8c41-300002d89702")
+		(property "Reference" "#PWR06"
+			(at 92.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e25eca7-6ae0-42dd-9cb1-395c29f47921")
+		)
+		(instances
+			(project "antenna_top_cap_v2b"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
